@@ -21,7 +21,7 @@
 | Week 🗓️ | Topic 🏫 | Slide 📽️ | Code 🖥️ | Video 🎬 |
 |---:|---|---|---|---|
 | 1 | 自然語言處理介紹以及本課程綱要 | [`pdf`](./slides/w1_intro_0223.pdf) [`ppt`](./slides/w1_intro_0223.pptx) |  |  |
-| 2 | 文字向量基礎與詞嵌入模型 |  |  |  |
+| 2 | 文字向量基礎與詞嵌入模型 | [`pdf`](./slides/w2_vectors_0302.pdf) [`ppt`](./slides/w2_vectors_0302.pptx) |  |  |
 | 3 | 遞迴神經網路與長短期記憶網路 |  |  |  |
 | 4 | 注意力機制與現代字詞分割演算法 |  |  |  |
 | 5 | Transformer 模型架構介紹 |  |  |  |
