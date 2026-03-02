@@ -38,6 +38,6 @@
 | 16 | 小組實作成果報告 (2) |  |  |  |
 
 ## 作業 (Assignments) 📝
-| Index | Topic 🏫 | Deadline |
-|---:|---|---|
-| 1 | [詞向量與詞嵌入實作](./assignments/assignment_1/) | 2026-03-23 23:59 |
+| Index | Topic 🏫 | 說明 |Deadline |
+|---:|---|---|---|
+| 1 | [詞向量與詞嵌入實作](./assignments/assignment_1/) | [`Slide`](https://docs.google.com/presentation/d/18JHMCYYwA4s0VnOkeugiOGX5mfFh6kG29xzv53j3J1A/edit?usp=sharing) |2026-03-23 23:59 |
