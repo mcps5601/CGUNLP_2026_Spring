@@ -36,3 +36,8 @@
 | 14 | State Space Models and Mamba |  |  |  |
 | 15 | 小組實作成果報告 (1) |  |  |  |
 | 16 | 小組實作成果報告 (2) |  |  |  |
+
+## 作業 (Assignments) 📝
+| Index | Topic 🏫 | Deadline |
+|---:|---|---|
+| 1 | [詞向量與詞嵌入實作](./assignments/assignment_1/) | 2026-03-23 23:59 |
