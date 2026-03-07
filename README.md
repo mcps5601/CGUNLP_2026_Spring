@@ -12,6 +12,7 @@
 - 🧾 科目代碼：`AIM125` & `HDM014`
 - 💻 使用語言：Python (PyTorch / Transformers)
 - 🗣️ 授課語言：中文（含部分英文教材）
+- [`課程影片 YouTube 播放清單`](https://www.youtube.com/playlist?list=PL0bwsTyVtLVz7p_FSYBS75KnuUh-6QbBy)
 
 ---
 
