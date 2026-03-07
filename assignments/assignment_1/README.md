@@ -1,7 +1,7 @@
 # Assignment 1
 
 ## Additional Download Links
-For students who cannot access the links in main.ipynb, you can download the Wiki dataset in the following links:
+For students who cannot access the links in `nlp_as1.ipynb`, you can download the Wiki dataset in the following links:
 
 ```
 !gdown --id 1J0os1846PQ129t720aI0wMm-5GepEwSl -O wiki_texts_part_0.txt.gz
