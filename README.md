@@ -19,7 +19,7 @@
 ## 課程進度（16 週）🗓️
 > 以實際上課狀況微調；詳細教材與作業說明見各週資料夾。
 
-| Week 🗓️ | Topic 🏫 | Slide 📽️ | Code 🖥️ | Video 🎬 |
+| Week 🗓️ | Topic 🏫 | Slide 📽️ | Code  | Video 🎬 |
 |---:|---|---|---|---|
 | 1 | 自然語言處理介紹以及本課程綱要 | [`pdf`](./slides/w1_intro_0223.pdf) [`ppt`](./slides/w1_intro_0223.pptx) |  | [`Video1`](https://youtu.be/cWZ08blKpXM) [`Video2`](https://youtu.be/SaVCTUpCPLU) [`Video3`](https://youtu.be/DL-r6bPDfls) |
 | 2 | 文字向量基礎與詞嵌入模型 | [`pdf`](./slides/w2_vectors_0302.pdf) [`ppt`](./slides/w2_vectors_0302.pptx) |  | [`Video1`](https://youtu.be/6S9jGIwlE74) [`Video2`](https://youtu.be/-WOuNRyqW8M) [`Video3`](https://youtu.be/nacFGcUtzps)  |
