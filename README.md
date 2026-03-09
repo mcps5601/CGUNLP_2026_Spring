@@ -26,7 +26,7 @@
 | 3 | 遞迴神經網路與長短期記憶網路 | [`pdf`](./slides/w3_rnns_0309.pdf) [`ppt`](./slides/w3_rnns_0309.pptx) | [`LSTM`](./code/NN_中文文本分類.ipynb) |  |
 | 4 | 注意力機制與現代字詞分割演算法 |  |  |  |
 | 5 | Transformer 模型架構介紹 |  |  |  |
-| 6 | BERT and its Family: Encoder-based models |  |  |  |
+| 6 | Encoder-based models |  |  |  |
 | 7 | 清明連假 |  |  |  |
 | 8 | Decoder-based models and decoding strategies |  |  |  |
 | 9 | 期中考 |  |  |  |
