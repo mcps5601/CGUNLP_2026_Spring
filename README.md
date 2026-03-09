@@ -28,7 +28,7 @@
 | 5 | Transformer 模型架構介紹 |  |  |  |
 | 6 | Encoder-based models |  |  |  |
 | 7 | 清明連假 |  |  |  |
-| 8 | Decoder-based models and decoding strategies |  |  |  |
+| 8 | Decoder-based models |  |  |  |
 | 9 | 期中考 |  |  |  |
 | 10 | HuggingFace Tutorial |  |  |  |
 | 11 | LLM-1: LLM Intro and RAG |  |  |  |
