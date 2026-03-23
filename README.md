@@ -25,7 +25,7 @@
 | 2 | 文字向量基礎與詞嵌入模型 | [`pdf`](./slides/w2_vectors_0302.pdf) [`ppt`](./slides/w2_vectors_0302.pptx) |  | [`Video1`](https://youtu.be/6S9jGIwlE74) [`Video2`](https://youtu.be/-WOuNRyqW8M) [`Video3`](https://youtu.be/nacFGcUtzps)  |
 | 3 | 遞迴神經網路與長短期記憶網路 | [`pdf`](./slides/w3_rnns_0309.pdf) [`ppt`](./slides/w3_rnns_0309.pptx) | [`LSTM`](./code/NN_中文文本分類.ipynb) | [`Video1`](https://youtu.be/M4ft-Z4S0EM) [`Video2`](https://youtu.be/zJoZwHhmzN8) [`Video3`](https://youtu.be/l_dl2_OjuaE)  |
 | 4 | 注意力機制與現代字詞分割演算法 | [`pdf`](./slides/w4_attn_subwords_0316.pdf) [`ppt`](./slides/w4_attn_subwords_0316.pptx)  |  [`BPE`](./code/bpe_tutorial.ipynb) |  |
-| 5 | Transformer 模型架構介紹 |  |  |  |
+| 5 | Transformer 模型架構介紹 | [`pdf`](./slides/w5_transformer_0323.pdf) [`ppt`](./slides/w5_transformer_0323.pptx)  |  |  |
 | 6 | Encoder-based models |  |  |  |
 | 7 | 清明連假 |  |  |  |
 | 8 | Decoder-based models |  |  |  |
@@ -42,3 +42,4 @@
 | Index | Topic 🏫 | 說明 |Deadline |
 |---:|---|---|---|
 | 1 | [詞向量與詞嵌入實作](./assignments/assignment_1/) | [`Slide`](https://docs.google.com/presentation/d/18JHMCYYwA4s0VnOkeugiOGX5mfFh6kG29xzv53j3J1A/edit?usp=sharing) |2026-03-23 23:59 |
+| 2 | [基於 Transformer 的主題分類器](./assignments/assignment_2/) | [`Slide`](https://docs.google.com/presentation/d/1P3k3GzXGBsROG7oDmEItemrsJT3l4f9U1qr0PLfwLgI/edit?usp=sharing) | 2026-04-12 23:59 |
