@@ -28,7 +28,7 @@
 | 5 | Transformer 模型架構介紹 | [`pdf`](./slides/w5_transformer_0323.pdf) [`ppt`](./slides/w5_transformer_0323.pptx)  |  |  |
 | 6 | Encoder-based models | [`pdf`](./slides/w6_bert_0330.pdf) [`ppt`](./slides/w6_bert_0330.pptx)  | [`BERT_QA`](./code/bert_family_qa.ipynb) |  |
 | 7 | 清明連假 |  |  |  |
-| 8 | Decoder-based models |  |  |  |
+| 8 | Decoder-based models | [`pdf`](./slides/w8_decoder_0413.pdf) [`ppt`](./slides/w8_decoder_0413.pptx) |  |  |
 | 9 | 期中考 |  |  |  |
 | 10 | HuggingFace Tutorial |  |  |  |
 | 11 | LLM-1: LLM Intro and RAG |  |  |  |
