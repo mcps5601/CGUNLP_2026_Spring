@@ -48,7 +48,7 @@
 ## Term Project (小組專題) 🏆
 - Final Project 佔學期總成績 30%
   - [`說明 Slide`](./slides/w8_project_0413.pptx)
-  - [`說明 Video`](https://youtu.be/DvCNcQb_A0U)
+  - [`說明 Video`](https://youtu.be/Zapxrvti7oU)
 
 | 查核點 (週次) | 對象: 繳交內容 | 分數佔比 |
 |---|---|---|
