@@ -28,7 +28,7 @@
 | 5 | Transformer 模型架構介紹 | [`pdf`](./slides/w5_transformer_0323.pdf) [`ppt`](./slides/w5_transformer_0323.pptx)  |  |  [`Video1`](https://youtu.be/zOnPoY-GlaY) [`Video2`](https://youtu.be/jj9zVVvYGs4) [`Video3`](https://youtu.be/Y8Q755ItO7g)  |
 | 6 | Encoder-based models | [`pdf`](./slides/w6_bert_0330.pdf) [`ppt`](./slides/w6_bert_0330.pptx)  | [`BERT_QA`](./code/bert_family_qa.ipynb) | [`Video1`](https://youtu.be/DvCNcQb_A0U) [`Video2`](https://youtu.be/8VXh3WqH78I) [`Video3`](https://youtu.be/O36DIJbz9Hk) |
 | 7 | 清明連假 |  |  |  |
-| 8 | Decoder-based models | [`pdf`](./slides/w8_decoder_0413.pdf) [`ppt`](./slides/w8_decoder_0413.pptx) [`project`](./slides/w8_project_0413.pptx) |  | [`Video1`](https://youtu.be/DvCNcQb_A0U) [`Video2`](https://youtu.be/ffjatvp7tvQ) [`Video3`](https://youtu.be/LykVppfMF7I) |
+| 8 | Decoder-based models | [`pdf`](./slides/w8_decoder_0413.pdf) [`ppt`](./slides/w8_decoder_0413.pptx) |  |  [`Video2`](https://youtu.be/ffjatvp7tvQ) [`Video3`](https://youtu.be/LykVppfMF7I) |
 | 9 | 期中考 |  |  |  |
 | 10 | HuggingFace Tutorial |  |  |  |
 | 11 | LLM-1: LLM Intro and RAG |  |  |  |
@@ -44,3 +44,17 @@
 | 1 | [詞向量與詞嵌入實作](./assignments/assignment_1/) | [`Slide`](https://docs.google.com/presentation/d/18JHMCYYwA4s0VnOkeugiOGX5mfFh6kG29xzv53j3J1A/edit?usp=sharing) |2026-03-23 23:59 |
 | 2 | [基於 Transformer 的主題分類器](./assignments/assignment_2/) | [`Slide`](https://docs.google.com/presentation/d/1P3k3GzXGBsROG7oDmEItemrsJT3l4f9U1qr0PLfwLgI/edit?usp=sharing) | 2026-04-12 23:59 |
 | 3 | [命名實體辨識](./assignments/assignment_3/) | [`Slide`](https://docs.google.com/presentation/d/1QJ5m0usA7skhqSX143OI6irE2zVY_PUUGiko6qDhWDE/edit?usp=sharing) | 2026-05-03 23:59 |
+
+## Term Project (小組專題) 🏆
+- Final Project 佔學期總成績 30%
+  - [`說明 Slide`](./slides/w8_project_0413.pptx)
+  - [`說明 Video`](https://youtu.be/DvCNcQb_A0U)
+
+| 查核點 (週次) | 對象: 繳交內容 | 分數佔比 |
+|---|---|---|
+| Checkpoint1 (Week 12) | All teams: 進度報告 PPT (5 pages)檔案 | 5% |
+| Checkpoint2 (Week 14) | All teams: 進度報告 PPT (5+5 pages*)檔案<br>Selected teams: 取5組 (1題目1組) 於課堂中報告，1組10min，此週報告組別得 Checkpoint1 和 Checkpoint2 滿分 | 5% |
+| Checkpoint3 (Week 15-16) | All teams: 最終口頭報告 | 10% |
+| Checkpoint4 (Week 16-17) | All teams: 書面報告檔案 | 10% |
+
+*繼承Checkpoint1內容+實作
