@@ -1,0 +1,575 @@
+{
+    "meta": {
+        "version": "v3",
+        "dataset_id": "fc_hw4",
+        "description": "NLP Function Calling 作業用 mock 資料庫 v3，禁止學生修改"
+    },
+    "stocks": {
+        "data": {
+            "AAPL": {
+                "price": 150.25,
+                "currency": "USD",
+                "name": "Apple Inc.",
+                "change_pct": 1.2
+            },
+            "TSLA": {
+                "price": 200.50,
+                "currency": "USD",
+                "name": "Tesla Inc.",
+                "change_pct": -0.8
+            },
+            "NVDA": {
+                "price": 875.40,
+                "currency": "USD",
+                "name": "NVIDIA Corporation",
+                "change_pct": 3.1
+            },
+            "GOOG": {
+                "price": 175.80,
+                "currency": "USD",
+                "name": "Alphabet Inc. (Google)",
+                "change_pct": 0.9
+            },
+            "AMZN": {
+                "price": 195.60,
+                "currency": "USD",
+                "name": "Amazon.com Inc.",
+                "change_pct": -0.3
+            },
+            "META": {
+                "price": 510.30,
+                "currency": "USD",
+                "name": "Meta Platforms Inc.",
+                "change_pct": 1.7
+            },
+            "NFLX": {
+                "price": 635.20,
+                "currency": "USD",
+                "name": "Netflix Inc.",
+                "change_pct": 0.4
+            },
+            "AMD": {
+                "price": 168.90,
+                "currency": "USD",
+                "name": "Advanced Micro Devices",
+                "change_pct": 2.3
+            },
+            "INTC": {
+                "price": 30.45,
+                "currency": "USD",
+                "name": "Intel Corporation",
+                "change_pct": -1.1
+            },
+            "QCOM": {
+                "price": 177.60,
+                "currency": "USD",
+                "name": "Qualcomm Inc.",
+                "change_pct": 0.6
+            },
+            "ORCL": {
+                "price": 130.75,
+                "currency": "USD",
+                "name": "Oracle Corporation",
+                "change_pct": 1.0
+            },
+            "IBM": {
+                "price": 188.40,
+                "currency": "USD",
+                "name": "IBM Corp.",
+                "change_pct": -0.2
+            },
+            "CRM": {
+                "price": 282.10,
+                "currency": "USD",
+                "name": "Salesforce Inc.",
+                "change_pct": 0.8
+            },
+            "ADBE": {
+                "price": 454.90,
+                "currency": "USD",
+                "name": "Adobe Inc.",
+                "change_pct": -0.5
+            },
+            "DIS": {
+                "price": 95.30,
+                "currency": "USD",
+                "name": "The Walt Disney Company",
+                "change_pct": -0.7
+            },
+            "WMT": {
+                "price": 65.80,
+                "currency": "USD",
+                "name": "Walmart Inc.",
+                "change_pct": 0.3
+            },
+            "V": {
+                "price": 278.50,
+                "currency": "USD",
+                "name": "Visa Inc.",
+                "change_pct": 0.5
+            },
+            "JPM": {
+                "price": 212.30,
+                "currency": "USD",
+                "name": "JPMorgan Chase & Co.",
+                "change_pct": 1.1
+            },
+            "SBUX": {
+                "price": 79.40,
+                "currency": "USD",
+                "name": "Starbucks Corporation",
+                "change_pct": -0.4
+            },
+            "TSMC": {
+                "price": 600.00,
+                "currency": "TWD",
+                "name": "台灣積體電路製造",
+                "change_pct": 0.5
+            },
+            "UMC": {
+                "price": 55.30,
+                "currency": "TWD",
+                "name": "聯華電子",
+                "change_pct": -0.3
+            },
+            "HON": {
+                "price": 108.50,
+                "currency": "TWD",
+                "name": "鴻海精密工業",
+                "change_pct": 0.7
+            },
+            "MTEK": {
+                "price": 1250.0,
+                "currency": "TWD",
+                "name": "聯發科技",
+                "change_pct": 1.5
+            },
+            "BIDU": {
+                "price": 98.20,
+                "currency": "USD",
+                "name": "Baidu Inc.",
+                "change_pct": -1.5
+            },
+            "JD": {
+                "price": 24.60,
+                "currency": "USD",
+                "name": "JD.com Inc.",
+                "change_pct": -0.9
+            },
+            "PDD": {
+                "price": 112.80,
+                "currency": "USD",
+                "name": "PDD Holdings (Pinduoduo)",
+                "change_pct": 2.0
+            },
+            "BABA": {
+                "price": 78.50,
+                "currency": "USD",
+                "name": "Alibaba Group Holding",
+                "change_pct": -1.2
+            },
+            "NIO": {
+                "price": 5.30,
+                "currency": "USD",
+                "name": "NIO Inc.",
+                "change_pct": -2.1
+            },
+            "XPEV": {
+                "price": 9.80,
+                "currency": "USD",
+                "name": "XPeng Inc.",
+                "change_pct": -1.8
+            },
+            "LI": {
+                "price": 22.40,
+                "currency": "USD",
+                "name": "Li Auto Inc.",
+                "change_pct": 0.6
+            }
+        },
+        "aliases": {
+            "蘋果": "AAPL",
+            "特斯拉": "TSLA",
+            "輝達": "NVDA",
+            "谷歌": "GOOG",
+            "亞馬遜": "AMZN",
+            "臉書": "META",
+            "網飛": "NFLX",
+            "超微": "AMD",
+            "英特爾": "INTC",
+            "高通": "QCOM",
+            "甲骨文": "ORCL",
+            "迪士尼": "DIS",
+            "沃爾瑪": "WMT",
+            "星巴克": "SBUX",
+            "台積電": "TSMC",
+            "2330": "TSMC",
+            "聯電": "UMC",
+            "2303": "UMC",
+            "鴻海": "HON",
+            "2317": "HON",
+            "聯發科": "MTEK",
+            "2454": "MTEK",
+            "百度": "BIDU",
+            "京東": "JD",
+            "拼多多": "PDD",
+            "阿里巴巴": "BABA",
+            "阿里": "BABA",
+            "蔚來": "NIO",
+            "小鵬": "XPEV",
+            "理想汽車": "LI",
+            "理想": "LI"
+        }
+    },
+    "weather": {
+        "data": {
+            "Taipei": {
+                "temperature": 25,
+                "condition": "Cloudy",
+                "humidity": 70,
+                "wind_speed_kmh": 12
+            },
+            "Taichung": {
+                "temperature": 27,
+                "condition": "Partly Cloudy",
+                "humidity": 65,
+                "wind_speed_kmh": 8
+            },
+            "Tainan": {
+                "temperature": 29,
+                "condition": "Sunny",
+                "humidity": 60,
+                "wind_speed_kmh": 6
+            },
+            "Kaohsiung": {
+                "temperature": 30,
+                "condition": "Sunny",
+                "humidity": 68,
+                "wind_speed_kmh": 7
+            },
+            "Hsinchu": {
+                "temperature": 23,
+                "condition": "Windy",
+                "humidity": 72,
+                "wind_speed_kmh": 25
+            },
+            "Taoyuan": {
+                "temperature": 24,
+                "condition": "Cloudy",
+                "humidity": 74,
+                "wind_speed_kmh": 10
+            },
+            "Tokyo": {
+                "temperature": 20,
+                "condition": "Rainy",
+                "humidity": 80,
+                "wind_speed_kmh": 8
+            },
+            "Osaka": {
+                "temperature": 22,
+                "condition": "Partly Cloudy",
+                "humidity": 75,
+                "wind_speed_kmh": 9
+            },
+            "Seoul": {
+                "temperature": 18,
+                "condition": "Clear",
+                "humidity": 50,
+                "wind_speed_kmh": 14
+            },
+            "Beijing": {
+                "temperature": 16,
+                "condition": "Hazy",
+                "humidity": 55,
+                "wind_speed_kmh": 11
+            },
+            "Shanghai": {
+                "temperature": 22,
+                "condition": "Overcast",
+                "humidity": 75,
+                "wind_speed_kmh": 10
+            },
+            "Guangzhou": {
+                "temperature": 28,
+                "condition": "Sunny",
+                "humidity": 78,
+                "wind_speed_kmh": 5
+            },
+            "HongKong": {
+                "temperature": 26,
+                "condition": "Partly Cloudy",
+                "humidity": 82,
+                "wind_speed_kmh": 15
+            },
+            "Singapore": {
+                "temperature": 31,
+                "condition": "Thunderstorm",
+                "humidity": 90,
+                "wind_speed_kmh": 18
+            },
+            "Bangkok": {
+                "temperature": 33,
+                "condition": "Sunny",
+                "humidity": 85,
+                "wind_speed_kmh": 6
+            },
+            "NewYork": {
+                "temperature": 15,
+                "condition": "Sunny",
+                "humidity": 45,
+                "wind_speed_kmh": 20
+            },
+            "LosAngeles": {
+                "temperature": 24,
+                "condition": "Sunny",
+                "humidity": 35,
+                "wind_speed_kmh": 5
+            },
+            "London": {
+                "temperature": 11,
+                "condition": "Foggy",
+                "humidity": 88,
+                "wind_speed_kmh": 15
+            },
+            "Paris": {
+                "temperature": 13,
+                "condition": "Partly Cloudy",
+                "humidity": 62,
+                "wind_speed_kmh": 18
+            },
+            "Sydney": {
+                "temperature": 22,
+                "condition": "Sunny",
+                "humidity": 55,
+                "wind_speed_kmh": 12
+            }
+        },
+        "aliases": {
+            "台北": "Taipei",
+            "臺北": "Taipei",
+            "台中": "Taichung",
+            "臺中": "Taichung",
+            "台南": "Tainan",
+            "臺南": "Tainan",
+            "高雄": "Kaohsiung",
+            "新竹": "Hsinchu",
+            "桃園": "Taoyuan",
+            "東京": "Tokyo",
+            "大阪": "Osaka",
+            "首爾": "Seoul",
+            "漢城": "Seoul",
+            "北京": "Beijing",
+            "上海": "Shanghai",
+            "廣州": "Guangzhou",
+            "香港": "HongKong",
+            "新加坡": "Singapore",
+            "曼谷": "Bangkok",
+            "New York": "NewYork",
+            "紐約": "NewYork",
+            "Los Angeles": "LosAngeles",
+            "洛杉磯": "LosAngeles",
+            "倫敦": "London",
+            "巴黎": "Paris",
+            "雪梨": "Sydney",
+            "悉尼": "Sydney"
+        }
+    },
+    "news": {
+        "data": {
+            "tech": [
+                {
+                    "id": "tech_001",
+                    "title": "GPT-5 正式發布，效能較前代提升三倍",
+                    "date": "2024-01-15",
+                    "summary": "OpenAI 宣布 GPT-5 正式上線，在多項推理和多模態基準測試中刷新紀錄，API 定價較 GPT-4 下降 40%。"
+                },
+                {
+                    "id": "tech_002",
+                    "title": "量子計算穩定性突破，達 1000 量子位元操作",
+                    "date": "2024-01-16",
+                    "summary": "Google DeepMind 研究團隊實現千位元量子計算的錯誤修正，錯誤率低於 0.1%，開創量子商用新里程。"
+                },
+                {
+                    "id": "tech_003",
+                    "title": "台積電 2nm 製程量產，良率超業界預期",
+                    "date": "2024-01-17",
+                    "summary": "台積電宣布 2 奈米製程已進入量產階段，初步良率達 75%，預計 2025 年出貨給 Apple 與 NVIDIA。"
+                },
+                {
+                    "id": "tech_004",
+                    "title": "三星發表 Galaxy S25，搭載自研 AI 晶片",
+                    "date": "2024-01-18",
+                    "summary": "三星 Galaxy S25 Series 配備自研 Exynos 2500，強調裝置端 AI 推論能力，相機處理速度提升 60%。"
+                },
+                {
+                    "id": "tech_005",
+                    "title": "Meta 推出 AR 眼鏡 Orion，正式進軍空間運算",
+                    "date": "2024-01-19",
+                    "summary": "Meta 發表 Orion AR 眼鏡，重量僅 98g，視野角度達 70 度，預計 2025 年限量上市，售價約 1,200 美元。"
+                },
+                {
+                    "id": "tech_006",
+                    "title": "特斯拉 FSD v13 無人監督模式解鎖全美",
+                    "date": "2024-01-20",
+                    "summary": "Tesla Full Self-Driving v13 無須駕駛員監督版本在美國全面開放，事故率較人類駕駛降低 45%。"
+                },
+                {
+                    "id": "tech_007",
+                    "title": "NVIDIA H200 GPU 供不應求，等待期超過一年",
+                    "date": "2024-01-21",
+                    "summary": "NVIDIA H200 AI 訓練用 GPU 全球訂單積壓超過 12 個月，大型雲端廠商已預訂 2025 全年出貨量。"
+                },
+                {
+                    "id": "tech_008",
+                    "title": "Anthropic Claude 4 在程式碼生成測試奪冠",
+                    "date": "2024-01-22",
+                    "summary": "Anthropic 最新模型 Claude 4 在 HumanEval 程式碼基準測試得分 92.3，超越 GPT-5 的 89.7 分。"
+                },
+                {
+                    "id": "tech_009",
+                    "title": "微軟 Copilot 整合 Office 全系列，生產力提升顯著",
+                    "date": "2024-01-23",
+                    "summary": "Microsoft 365 Copilot 整合 Word、Excel、PowerPoint，企業用戶報告文件處理時間平均縮短 35%。"
+                },
+                {
+                    "id": "tech_010",
+                    "title": "蘋果 Vision Pro 2 發表，重量大幅減輕至 400g",
+                    "date": "2024-01-24",
+                    "summary": "Apple 發表 Vision Pro 第二代，重量從 600g 降至 400g，電池續航提升至 4 小時，售價維持 3,499 美元。"
+                }
+            ],
+            "finance": [
+                {
+                    "id": "fin_001",
+                    "title": "美國聯準會宣布降息一碼，市場熱烈回應",
+                    "date": "2024-01-15",
+                    "summary": "聯準會 FOMC 會議決議降息 25 個基點，聯邦基金利率降至 4.50%～4.75%，為 2020 年以來首次降息。"
+                },
+                {
+                    "id": "fin_002",
+                    "title": "那斯達克指數突破 20,000 點歷史新高",
+                    "date": "2024-01-16",
+                    "summary": "那斯達克綜合指數盤中突破 20,000 點整數關卡，由 AI 概念股帶動，NVIDIA 單日漲幅達 8.3%。"
+                },
+                {
+                    "id": "fin_003",
+                    "title": "台股加權指數攻上 23,000 點，外資買超近千億",
+                    "date": "2024-01-17",
+                    "summary": "台灣加權指數突破 23,000 點，外資單週買超台股達 950 億元，台積電為最大買超標的。"
+                },
+                {
+                    "id": "fin_004",
+                    "title": "比特幣現貨 ETF 批准，機構資金大舉進場",
+                    "date": "2024-01-18",
+                    "summary": "SEC 正式批准 11 檔比特幣現貨 ETF，首日交易量達 46 億美元，比特幣價格突破 5 萬美元大關。"
+                },
+                {
+                    "id": "fin_005",
+                    "title": "黃金現貨價格創歷史新高，突破每盎司 2,400 美元",
+                    "date": "2024-01-19",
+                    "summary": "受地緣政治緊張及降息預期帶動，黃金現貨價格首次突破每盎司 2,400 美元，創史上新高。"
+                },
+                {
+                    "id": "fin_006",
+                    "title": "阿里巴巴宣布分拆六大業務，股價應聲上漲 15%",
+                    "date": "2024-01-20",
+                    "summary": "阿里巴巴宣布正式將電商、雲端、物流、娛樂等六大業務獨立運營，市場視為解鎖隱含價值的重要舉措。"
+                },
+                {
+                    "id": "fin_007",
+                    "title": "軟銀旗下 Arm 市值突破 1,500 億美元",
+                    "date": "2024-01-21",
+                    "summary": "Arm Holdings 股價年初至今漲幅超過 60%，市值突破 1,500 億美元，超越英特爾、高通等晶片巨頭。"
+                },
+                {
+                    "id": "fin_008",
+                    "title": "台灣央行升息半碼，全年通膨預估上調至 2.3%",
+                    "date": "2024-01-22",
+                    "summary": "台灣中央銀行理監事聯席會議決議升息半碼（0.125%），重貼現率升至 2.0%，全年通膨率預估上調。"
+                },
+                {
+                    "id": "fin_009",
+                    "title": "特斯拉第四季交車量超預期，股價單日漲 12%",
+                    "date": "2024-01-23",
+                    "summary": "特斯拉公布 Q4 全球交車量達 48.4 萬輛，超越市場預估的 46 萬輛，股價開盤大漲 12.3%。"
+                },
+                {
+                    "id": "fin_010",
+                    "title": "匯豐銀行宣布啟動 30 億美元股票回購計畫",
+                    "date": "2024-01-24",
+                    "summary": "匯豐控股宣布第三期 30 億美元的股票回購計畫，預計 3 個月內完成，每股配息維持 0.31 美元。"
+                }
+            ],
+            "sports": [
+                {
+                    "id": "spt_001",
+                    "title": "中華隊世界棒球12強奪金，全台沸騰",
+                    "date": "2024-01-15",
+                    "summary": "中華台北棒球隊在世界棒球 12 強賽決賽以 4:0 擊敗日本，奪得隊史首座世界冠軍，全台灣陷入狂歡。"
+                },
+                {
+                    "id": "spt_002",
+                    "title": "網球澳洲公開賽 Djokovic 奪得第 25 座大滿貫",
+                    "date": "2024-01-16",
+                    "summary": "Novak Djokovic 在澳洲公開賽決賽以 3 盤擊敗 Medvedev，奪得職業生涯第 25 座大滿貫冠軍。"
+                },
+                {
+                    "id": "spt_003",
+                    "title": "NBA 籃球賽：勇士今季勝場已超越去年全季",
+                    "date": "2024-01-17",
+                    "summary": "Golden State Warriors 今季在 Steph Curry 帶領下已拿下 40 勝，提前超越上季全季 37 勝紀錄。"
+                },
+                {
+                    "id": "spt_004",
+                    "title": "世界百米紀錄再破，衣索比亞選手跑出 9.52 秒",
+                    "date": "2024-01-18",
+                    "summary": "衣索比亞短跑新星 Lamecha Girma 在東京邀請賽中以 9.52 秒刷新 100 公尺世界紀錄，打破 Bolt 保持的 9.58 秒。"
+                },
+                {
+                    "id": "spt_005",
+                    "title": "英超曼城本季第 30 勝，距衛冕又近一步",
+                    "date": "2024-01-19",
+                    "summary": "Manchester City 以 3:1 擊敗 Arsenal，本季英超戰績 30 勝 3 平，領先第二名 8 分，盧卡庫完成帽子戲法。"
+                },
+                {
+                    "id": "spt_006",
+                    "title": "高爾夫大師賽：小麥克羅伊奪綠夾克完成生涯大滿貫",
+                    "date": "2024-01-20",
+                    "summary": "Rory McIlroy 在 Augusta 以 -18 桿的成績奪得名人賽冠軍，終於補上大滿貫最後一塊拼圖。"
+                },
+                {
+                    "id": "spt_007",
+                    "title": "F1 維斯塔潘在巴西站摘四連冠車手冠軍",
+                    "date": "2024-01-21",
+                    "summary": "Max Verstappen 在 F1 巴西大獎賽以第二名完賽，提前確認 2024 年車手世界冠軍，成為四連霸王者。"
+                },
+                {
+                    "id": "spt_008",
+                    "title": "林書豪退休，台灣媒體盛讚其開創台裔 NBA 先河",
+                    "date": "2024-01-22",
+                    "summary": "前 NBA 球星林書豪正式宣布退役，感謝球迷 15 年的支持，宣布將在台灣投入青少年籃球推廣工作。"
+                },
+                {
+                    "id": "spt_009",
+                    "title": "巴黎奧運倒數 180 天，台灣代表團確認 80 人陣容",
+                    "date": "2024-01-23",
+                    "summary": "中華奧委會確認 2024 巴黎奧運台灣代表團陣容共 80 人，田徑、舉重、柔道是本屆奪牌重點項目。"
+                },
+                {
+                    "id": "spt_010",
+                    "title": "世界足球先生頒獎：Haaland 首度奪得金球獎",
+                    "date": "2024-01-24",
+                    "summary": "挪威前鋒 Erling Haaland 以本季 62 球的歐洲職業聯賽紀錄奪下法國足球雜誌年度金球獎，終結梅羅時代。"
+                }
+            ]
+        },
+        "aliases": {
+            "科技": "tech",
+            "財經": "finance",
+            "運動": "sports",
+            "體育": "sports",
+            "金融": "finance",
+            "IT": "tech"
+        }
+    }
+}
