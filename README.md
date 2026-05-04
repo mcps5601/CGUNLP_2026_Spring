@@ -31,7 +31,7 @@
 | 8 | Decoder-based models | [`pdf`](./slides/w8_decoder_0413.pdf) [`ppt`](./slides/w8_decoder_0413.pptx) |  |  [`Video2`](https://youtu.be/ffjatvp7tvQ) [`Video3`](https://youtu.be/LykVppfMF7I) |
 | 9 | 期中考 |  |  |  |
 | 10 | HuggingFace Tutorial | [`pdf`](./slides/w10_huggingface_0427.pdf) [`ppt`](./slides/w10_huggingface_0427.pptx)  | [`gpt2`](./code/gpt2_summarization.ipynb) [`t5`](./code/t5_summarization.ipynb) |  |
-| 11 | LLM-1: LLM Intro and RAG |  |  |  |
+| 11 | LLM-1: LLM Intro and RAG | [`pdf`](./slides/w11_llm_rag_0504.pdf) [`ppt`](./slides/w11_llm_rag_0504.pptx)  |  |  |
 | 12 | LLM-2: Evaluations |  |  |  |
 | 13 | LLM-3: Efficient Training |  |  |  |
 | 14 | State Space Models and Mamba |  |  |  |
