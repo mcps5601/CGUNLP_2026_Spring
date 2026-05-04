@@ -44,7 +44,7 @@
 | 1 | [詞向量與詞嵌入實作](./assignments/assignment_1/) | [`Slide`](https://docs.google.com/presentation/d/18JHMCYYwA4s0VnOkeugiOGX5mfFh6kG29xzv53j3J1A/edit?usp=sharing) |2026-03-23 23:59 |
 | 2 | [基於 Transformer 的主題分類器](./assignments/assignment_2/) | [`Slide`](https://docs.google.com/presentation/d/1P3k3GzXGBsROG7oDmEItemrsJT3l4f9U1qr0PLfwLgI/edit?usp=sharing) | 2026-04-12 23:59 |
 | 3 | [命名實體辨識](./assignments/assignment_3/) | [`Slide`](https://docs.google.com/presentation/d/1QJ5m0usA7skhqSX143OI6irE2zVY_PUUGiko6qDhWDE/edit?usp=sharing) | 2026-05-03 23:59 |
-| 4 | [函數呼叫功能](./assignments/assignment_4/) | [`Slide`]() | 2026-05-24 23:59 |
+| 4 | [函數呼叫功能](./assignments/assignment_4/) | [`Slide`](https://docs.google.com/presentation/d/1DYMTWIYCAKHIL9yVS2hLVkrbXhROtJlvXUiR-HFqQKU/edit?usp=sharing) | 2026-05-24 23:59 |
 
 ## Term Project (小組專題) 🏆
 - Final Project 佔學期總成績 30%
