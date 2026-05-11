@@ -32,7 +32,7 @@
 | 9 | 期中考 |  |  |  |
 | 10 | HuggingFace Tutorial | [`pdf`](./slides/w10_huggingface_0427.pdf) [`ppt`](./slides/w10_huggingface_0427.pptx)  | [`gpt2`](./code/gpt2_summarization.ipynb) [`t5`](./code/t5_summarization.ipynb) |  |
 | 11 | LLM-1: LLM Intro and RAG | [`pdf`](./slides/w11_llm_rag_0504.pdf) [`ppt`](./slides/w11_llm_rag_0504.pptx)  |  |  |
-| 12 | LLM-2: Evaluations |  | [`Qwen3`](./code/qwen3_tutorial.ipynb) |  |
+| 12 | LLM-2: Evaluations | [`pdf`](./slides/w12_llm2_0511.pdf) [`ppt`](./slides/w12_llm2_0511.pptx)  | [`Qwen3`](./code/qwen3_tutorial.ipynb) |  |
 | 13 | LLM-3: Efficient Training |  |  |  |
 | 14 | State Space Models and Mamba |  |  |  |
 | 15 | 小組實作成果報告 (1) |  |  |  |
