@@ -30,7 +30,7 @@
 | 7 | 清明連假 |  |  |  |
 | 8 | Decoder-based models | [`pdf`](./slides/w8_decoder_0413.pdf) [`ppt`](./slides/w8_decoder_0413.pptx) |  |  [`Video2`](https://youtu.be/ffjatvp7tvQ) [`Video3`](https://youtu.be/LykVppfMF7I) |
 | 9 | 期中考 |  |  |  |
-| 10 | HuggingFace Tutorial | [`pdf`](./slides/w10_huggingface_0427.pdf) [`ppt`](./slides/w10_huggingface_0427.pptx)  | [`gpt2`](./code/gpt2_summarization.ipynb) [`t5`](./code/t5_summarization.ipynb) |  |
+| 10 | HuggingFace Tutorial | [`pdf`](./slides/w10_huggingface_0427.pdf) [`ppt`](./slides/w10_huggingface_0427.pptx)  | [`gpt2`](./code/gpt2_summarization.ipynb) [`t5`](./code/t5_summarization.ipynb) | [`Decoding_1`](https://youtu.be/zPqKFvb8Bns) [`Decoding_2`](https://youtu.be/6GqSKaplx98) [`HF_1`](https://youtu.be/_54ReACG-iw) [`HF_2`](https://youtu.be/zNv7symc7j8) |
 | 11 | LLM-1: LLM Intro and RAG | [`pdf`](./slides/w11_llm_rag_0504.pdf) [`ppt`](./slides/w11_llm_rag_0504.pptx)  |  |  |
 | 12 | LLM-2: Evaluations | [`pdf`](./slides/w12_llm2_0511.pdf) [`ppt`](./slides/w12_llm2_0511.pptx)  | [`Qwen3`](./code/qwen3_tutorial.ipynb) |  |
 | 13 | LLM-3: Efficient Training | [`pdf`](./slides/w13_llm3_0518.pdf) [`ppt`](./slides/w13_llm3_0518.pptx)  | [`PEFT`](./code/lm_peft.ipynb) |  |
