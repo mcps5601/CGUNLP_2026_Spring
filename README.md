@@ -22,16 +22,16 @@
 | Week 🗓️ | Topic 🏫 | Slide 📽️ | Code  | Video 🎬 |
 |---:|---|---|---|---|
 | 1 | 自然語言處理介紹以及本課程綱要 | [`pdf`](./slides/w1_intro_0223.pdf) [`ppt`](./slides/w1_intro_0223.pptx) |  | [`Video1`](https://youtu.be/cWZ08blKpXM) [`Video2`](https://youtu.be/SaVCTUpCPLU) [`Video3`](https://youtu.be/DL-r6bPDfls) |
-| 2 | 文字向量基礎與詞嵌入模型 | [`pdf`](./slides/w2_vectors_0302.pdf) [`ppt`](./slides/w2_vectors_0302.pptx) |  | [`Video1`](https://youtu.be/6S9jGIwlE74) [`Video2`](https://youtu.be/-WOuNRyqW8M) [`Video3`](https://youtu.be/nacFGcUtzps)  |
+| 2 | 文字向量基礎與詞嵌入模型 | [`pdf`](./slides/w2_vectors_0302.pdf) [`ppt`](./slides/w2_vectors_0302.pptx) | `AS1` | [`Video1`](https://youtu.be/6S9jGIwlE74) [`Video2`](https://youtu.be/-WOuNRyqW8M) [`Video3`](https://youtu.be/nacFGcUtzps)  |
 | 3 | 遞迴神經網路與長短期記憶網路 | [`pdf`](./slides/w3_rnns_0309.pdf) [`ppt`](./slides/w3_rnns_0309.pptx) | [`LSTM`](./code/NN_中文文本分類.ipynb) | [`Video1`](https://youtu.be/M4ft-Z4S0EM) [`Video2`](https://youtu.be/zJoZwHhmzN8) [`Video3`](https://youtu.be/l_dl2_OjuaE)  |
 | 4 | 注意力機制與現代字詞分割演算法 | [`pdf`](./slides/w4_attn_subwords_0316.pdf) [`ppt`](./slides/w4_attn_subwords_0316.pptx)  |  [`BPE`](./code/bpe_tutorial.ipynb) | [`Video1`](https://youtu.be/jfCVnbl3XeM) [`Video2`](https://youtu.be/hC9x6-CTilc) [`Video3`](https://youtu.be/Wk2oQWVeNm0)  |
-| 5 | Transformer 模型架構介紹 | [`pdf`](./slides/w5_transformer_0323.pdf) [`ppt`](./slides/w5_transformer_0323.pptx)  |  |  [`Video1`](https://youtu.be/zOnPoY-GlaY) [`Video2`](https://youtu.be/jj9zVVvYGs4) [`Video3`](https://youtu.be/Y8Q755ItO7g)  |
+| 5 | Transformer 模型架構介紹 | [`pdf`](./slides/w5_transformer_0323.pdf) [`ppt`](./slides/w5_transformer_0323.pptx)  | `AS2` |  [`Video1`](https://youtu.be/zOnPoY-GlaY) [`Video2`](https://youtu.be/jj9zVVvYGs4) [`Video3`](https://youtu.be/Y8Q755ItO7g)  |
 | 6 | Encoder-based models | [`pdf`](./slides/w6_bert_0330.pdf) [`ppt`](./slides/w6_bert_0330.pptx)  | [`BERT_QA`](./code/bert_family_qa.ipynb) | [`Video1`](https://youtu.be/DvCNcQb_A0U) [`Video2`](https://youtu.be/8VXh3WqH78I) [`Video3`](https://youtu.be/O36DIJbz9Hk) |
 | 7 | 清明連假 |  |  |  |
-| 8 | Decoder-based models | [`pdf`](./slides/w8_decoder_0413.pdf) [`ppt`](./slides/w8_decoder_0413.pptx) |  |  [`Video2`](https://youtu.be/ffjatvp7tvQ) [`Video3`](https://youtu.be/LykVppfMF7I) |
+| 8 | Decoder-based models | [`pdf`](./slides/w8_decoder_0413.pdf) [`ppt`](./slides/w8_decoder_0413.pptx) | `AS3` | [`Video1`](https://youtu.be/Zapxrvti7oU) [`Video2`](https://youtu.be/ffjatvp7tvQ) [`Video3`](https://youtu.be/LykVppfMF7I) |
 | 9 | 期中考 |  |  |  |
 | 10 | HuggingFace Tutorial | [`pdf`](./slides/w10_huggingface_0427.pdf) [`ppt`](./slides/w10_huggingface_0427.pptx)  | [`gpt2`](./code/gpt2_summarization.ipynb) [`t5`](./code/t5_summarization.ipynb) | [`Decoding_1`](https://youtu.be/zPqKFvb8Bns) [`Decoding_2`](https://youtu.be/6GqSKaplx98) [`HF_1`](https://youtu.be/_54ReACG-iw) [`HF_2`](https://youtu.be/zNv7symc7j8) |
-| 11 | LLM-1: LLM Intro and RAG | [`pdf`](./slides/w11_llm_rag_0504.pdf) [`ppt`](./slides/w11_llm_rag_0504.pptx)  |  |  |
+| 11 | LLM-1: LLM Intro and RAG | [`pdf`](./slides/w11_llm_rag_0504.pdf) [`ppt`](./slides/w11_llm_rag_0504.pptx)  | `AS4` | [`Video1`](https://youtu.be/N2Xc4-PAwR4) [`Video2`](https://youtu.be/-rrU6We0MRU) [`Video3`](https://youtu.be/uOPJQT9KXnE) |
 | 12 | LLM-2: Evaluations | [`pdf`](./slides/w12_llm2_0511.pdf) [`ppt`](./slides/w12_llm2_0511.pptx)  | [`Qwen3`](./code/qwen3_tutorial.ipynb) |  |
 | 13 | LLM-3: Efficient Training | [`pdf`](./slides/w13_llm3_0518.pdf) [`ppt`](./slides/w13_llm3_0518.pptx)  | [`PEFT`](./code/lm_peft.ipynb) |  |
 | 14 | State Space Models and Mamba | [`pdf`](./slides/w14_mamba_0525.pdf) [`ppt`](./slides/w14_mamba_0525.pptx)  |  |  |
